@@ -1,8 +1,6 @@
 aid: chery
 name: Chery
-description: 'Chery is a company surfaced as a portfolio company of idg-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer-technology. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Chery Automobile Co., Ltd. is a Chinese state-owned automobile manufacturer headquartered in Wuhu, Anhui, and one of China''s largest passenger-vehicle exporters, conducting business in more than 130 countries and regions. Its brand portfolio spans the core Chery marque (TIGGO and ARRIZO SUV and sedan series), the Fengyun and OMODA/JAECOO new-energy lines, and the QQ city-car brand, with a growing emphasis on the CSH (Chery Super Hybrid) powertrain and connected-vehicle technology. Chery was surfaced as a portfolio company of IDG Capital and added to the API Evangelist network for enrichment. As an automotive manufacturer, Chery publishes corporate and consumer web properties but no public developer portal or API surface was found during this pass.'
 url: https://raw.githubusercontent.com/api-evangelist/chery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +8,46 @@ x-backed-by:
 - idg-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.cheryinternational.com/favicon.ico
 tags:
 - Company
 - Consumer Technology
+- Automotive
+- Automobile Manufacturer
+- Electric Vehicles
+- New Energy Vehicles
+- China
+- Connected Vehicles
 apis: []
+common:
+- type: DomainSecurity
+  url: security/chery-domain-security.yml
+- type: Website
+  url: https://www.cheryinternational.com/
+- type: Website
+  name: Chery China
+  url: https://www.chery.cn/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

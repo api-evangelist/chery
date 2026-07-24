@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.cheryinternational.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  1 23:59:59 2026 GMT
+  hsts: false
+- host: www.chery.cn
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov  6 23:59:59 2026 GMT
+  hsts: false
+domains:
+- domain: cheryinternational.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
+- domain: chery.cn
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
